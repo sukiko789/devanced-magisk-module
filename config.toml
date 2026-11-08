@@ -10,7 +10,6 @@ parallel-jobs = 1
 app-name = "YouTube"
 build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 enable-update-checks = true
 
 [Music-Morphe]
@@ -18,15 +17,6 @@ app-name = "Music"
 build-mode = "both"
 arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
-enable-update-checks = true
-
-[Reddit-Morphe]
-app-name = "Reddit"
-build-mode = "apk"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
-dpi = "120-640dpi"
 enable-update-checks = true
 
 [GooglePhotos]
@@ -34,13 +24,33 @@ build-mode = "both"
 patches-source = "RookieEnough/De-Vanced"
 rv-brand = "DeVanced"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
 enable-update-checks = true
 
 [Twitter]
 patches-source = "crimera/piko-newx"
 rv-brand = "Piko"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
 version = "latest"
 included-patches = "'NewX: Restore Twitter branding'"
+enable-update-checks = true
+
+[Pixiv]
+build-mode = "apk"
+patches-source = "RookieEnough/De-Vanced"
+rv-brand = "DeVanced"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/pixiv-inc/pixiv/"
+enable-update-checks = true
+
+[Messenger]
+build-mode = "both"
+patches-source = "RookieEnough/De-Vanced"
+rv-brand = "DeVanced"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
+enable-update-checks = true
+
+[Facebook]
+build-mode = "both"
+patches-source = "RookieEnough/De-Vanced"
+rv-brand = "DeVanced"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/facebook/"
 enable-update-checks = true
