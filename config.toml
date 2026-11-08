@@ -17,12 +17,12 @@ enable-update-checks = true
 build-mode = "both"
 patches-source = "RookieEnough/De-Vanced"
 rv-brand = "DeVanced"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/meta-platforms-inc/messenger/"
+uptodown-dlurl = "https://facebook-messenger.en.uptodown.com/android"
 enable-update-checks = true
 
 [Facebook]
 build-mode = "both"
 patches-source = "RookieEnough/De-Vanced"
 rv-brand = "DeVanced"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/meta-platforms-inc/facebook/"
+uptodown-dlurl = "https://facebook.en.uptodown.com/android"
 enable-update-checks = true
