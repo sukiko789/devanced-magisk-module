@@ -14,14 +14,14 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/pixiv-inc/pixiv/"
 enable-update-checks = true
 
 [Messenger]
-build-mode = "both"
+build-mode = "apk"
 patches-source = "RookieEnough/De-Vanced"
 rv-brand = "DeVanced"
 uptodown-dlurl = "https://facebook-messenger.en.uptodown.com/android"
 enable-update-checks = true
 
 [Facebook]
-build-mode = "both"
+build-mode = "apk"
 patches-source = "RookieEnough/De-Vanced"
 rv-brand = "DeVanced"
 uptodown-dlurl = "https://facebook.en.uptodown.com/android"
