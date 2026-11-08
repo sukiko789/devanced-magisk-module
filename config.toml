@@ -6,34 +6,6 @@ parallel-jobs = 1
 
 # you can use rvmm-config-gen to generate a config
 
-[YouTube-Morphe]
-app-name = "YouTube"
-build-mode = "both"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-enable-update-checks = true
-
-[Music-Morphe]
-app-name = "Music"
-build-mode = "both"
-arch = "both"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-enable-update-checks = true
-
-[GooglePhotos]
-build-mode = "both"
-patches-source = "RookieEnough/De-Vanced"
-rv-brand = "DeVanced"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
-enable-update-checks = true
-
-[X]
-patches-source = "crimera/piko-newx"
-rv-brand = "Piko"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
-version = "latest"
-included-patches = "'NewX: Restore Twitter branding'"
-enable-update-checks = true
-
 [Pixiv]
 build-mode = "apk"
 patches-source = "RookieEnough/De-Vanced"
